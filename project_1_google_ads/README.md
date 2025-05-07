@@ -3,6 +3,10 @@
 Bienvenido/a al proyecto de análisis de Google Ads para **DH Marketing**. 
 Este documento detalla las fases del proyecto y sus resultados.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Paulamc1695/projects_powerbi/main/project_1_google_ads/logo_google_ads.png" alt="Logo Google Ads" width="150"/>
+</p>
+
 ---
 
 ## **📌 Tabla de Contenidos**
@@ -16,10 +20,10 @@ Este documento detalla las fases del proyecto y sus resultados.
    * Fase 2. Procesos ETL (Extract, Transform, Load)  
    * Fase 3. Modelado de datos y construcción de relaciones 
    * Fase 4. Análisis y visualización en dashboard  
-     * Rendimiento General 
-     * Análisis Temporal
-     * Perfil de Audiencia
-     * Análisis por Canal publicitario 
+     * 1. Rendimiento General 
+     * 2. Análisis Temporal
+     * 3. Perfil de Audiencia
+     * 4. Análisis por Canal publicitario 
 
 • **Conclusión del proyecto**  
 
@@ -29,11 +33,11 @@ Este documento detalla las fases del proyecto y sus resultados.
 
 ## **📄 Contexto del proyecto**
 
-
+El proyecto se enfoca en el análisis del rendimiento de campañas realizadas a través de Google Ads, explorando su impacto en distintos públicos, canales y dispositivos, con el objetivo de optimizar la estrategia publicitaria digital.
 
 ## **🎯 Objetivo del proyecto**
 
----
+Diseñar un dashboard en Power BI que permita visualizar de forma clara y dinámica los resultados publicitarios, facilitando la toma de decisiones basadas en datos.
 
 ## **🗂️ Fases del Proyecto**
 
@@ -53,9 +57,7 @@ Este documento detalla las fases del proyecto y sus resultados.
 
 ### **Fase 4. Análisis y visualización en dashboard**
 
-
 * Visualización de los resultados a través de un dashboard interactivo que permite un fácil acceso y análisis de la información.
-
 
 #### **1. Rendimiento General**
 
@@ -401,6 +403,7 @@ Evalúa el rendimiento de cada canal publicitario (Google, Facebook, Instagram, 
 
 * **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión.
 
+---
 
 ## **📈 Conclusión del proyecto**
 
@@ -414,4 +417,4 @@ Si deseas conectar o aprender más sobre este proyecto, no dudes en visitar el p
 [Paula Martínez](https://www.linkedin.com/in/paulamartinezcantero/)
 
 **¡Gracias por explorar este proyecto!**  
-Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme. 🤝
