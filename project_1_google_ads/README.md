@@ -336,7 +336,7 @@ Evalúa el rendimiento de cada canal publicitario (Google, Facebook, Instagram, 
 
     - Total de conversiones<br>
 
-      Objetivo → Mostrar el número total de acciones valiosas logradas (ventas, registros, etc.). Es el resultado final del esfuerzo publicitario.
+      Objetivo → Mostrar el número total de acciones valiosas logradas (ventas, registros, etc.). Es el resultado final del esfuerzo publicitario.<br>
       Formato → Número sin decimales (Ej: 1.235) No se necesita porcentaje ni moneda, es un conteo.
 
     - Gasto total
