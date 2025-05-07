@@ -49,10 +49,9 @@ Este documento detalla las fases del proyecto y sus resultados.
 
 ### **Fase 3. Modelado de datos y construcción de relaciones**
 
-* Creación de tablas y estructuración de la base de datos, facilitando el almacenamiento y acceso a los datos.
+* Creación y relación de las tablas hechos (fact) y dimensiones (dim), facilitando el almacenamiento, acceso  e interacción de los datos.
 
-
-
+![BBDD relación tablas](https://github.com/Paulamc1695/powerbi_projects/blob/main/project_1_google_ads/google_ads_relaciones.png)
 
 ### **Fase 4. Análisis y visualización en Dashboard en Power BI**
 
