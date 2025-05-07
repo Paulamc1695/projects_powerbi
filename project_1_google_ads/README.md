@@ -4,7 +4,7 @@ Bienvenido/a al proyecto de análisis de Google Ads para **DH Marketing**.
 Este documento detalla las fases del proyecto y sus resultados.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Paulamc1695/projects_powerbi/main/project_1_google_ads/logo_google_ads.png" alt="Logo Google Ads" width="150"/>
+  <img src="https://raw.githubusercontent.com/Paulamc1695/projects_powerbi/main/project_1_google_ads/logo_google_ads.png" alt="Logo Google Ads" width="120"/>
 </p>
 
 ---
