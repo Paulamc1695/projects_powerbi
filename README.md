@@ -2,7 +2,7 @@
 
 **✨ ¡Bienvenido/a a este repositorio! ✨**
 
-Aquí encontrarás un conjunto de proyectos centrados en el análisis de datos a través de Power BI.
+Aquí encontrarás un conjunto de proyectos centrados en el análisis de datos desarrollados con Power BI, enfocados en la transformación, visualización e interpretación de datos para la toma de decisiones clara y efectiva.
 
 ---
 
