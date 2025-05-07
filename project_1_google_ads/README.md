@@ -99,25 +99,67 @@ Analiza el rendimiento global de las campañas publicitarias en términos de int
 
     Objetivo → Visualizar el alcance (impresiones), la interacción (clics) y los resultados obtenidos (conversiones) de cada campaña individual, para identificar cuáles han tenido mejor rendimiento global.
 
-     - Eje X:
-       Nombre de Campaña (Black Friday, Reactivación, Nuevos Clientes, Promo Verano). 
-       Formato dato → texto.
+    - Eje X:
+      Nombre de Campaña (Black Friday, Reactivación, Nuevos Clientes, Promo Verano). 
+      Formato dato → texto.
 
-     - Eje Y barras apiladas:
-       Total clicks
-       Formato dato → Número entero porque es un conteo.
-       Total Impresiones
-       Formato dato → Número entero porque es un conteo.
+    - Eje Y barras apiladas:
+      Total clicks
+      Formato dato → Número entero porque es un conteo.
+      Total Impresiones
+      Formato dato → Número entero porque es un conteo.
 
-      - Eje Y línea:
-        Total Conversiones
-        Formato dato → Número entero porque es un conteo.
+    - Eje Y línea:
+      Total Conversiones
+      Formato dato → Número entero porque es un conteo.
 
   * **Gráfico Distribución del gasto por campaña**
+    
+    Objetivo → Representar visualmente cómo se reparte la inversión total entre las distintas campañas, facilitando la comparación del peso presupuestario de cada una.
+
+    - Leyenda:
+      Nombre de Campaña (Black Friday, Reactivación, Nuevos Clientes, Promo Verano). 
+      Formato dato → texto.
+
+    - Valores:
+      Gasto Total. 
+      Formato dato → Moneda (porque es un coste).
 
   * **Gráfico Comparativa de costes publicitarios por campaña**
 
+    Objetivo → Comparar el coste unitario de diferentes formatos publicitarios (por mil impresiones, clic y visualización) entre campañas para evaluar su eficiencia relativa.
+
+    - Eje X:
+      Nombre de Campaña (Black Friday, Reactivación, Nuevos Clientes, Promo Verano). 
+      Formato dato → texto.
+
+    - Eje Y:
+      CPM
+      Formato dato → Moneda.
+      CPC
+      Formato dato → Moneda porque es un coste unitario.
+      CPV
+      Formato dato → Moneda
+
   * **Comparativa de rendimiento por campaña**
+
+    Objetivo → Mostrar el resumen detallado del rendimiento de cada campaña en términos de inversión, interacción y resultados obtenidos.
+
+      Columnas:
+      - Nombre de Campaña (Black Friday, Reactivación, Nuevos Clientes,  Promo Verano).  
+        Formato dato → texto.
+      - Total impresiones
+        Formato dato → Número entero porque es un conteo.
+      - Total conversiones
+        Formato dato → Número entero porque es un conteo.
+      - Total clicks
+        Formato dato → Número entero porque es un conteo.
+      - Gasto total
+        Formato dato → Moneda porque es un gasto.
+      - CPC
+        Formato dato → Moneda porque es un coste unitario.
+      - CTR
+        Formato dato → Porcentaje (%) porque es una proporción.
 
 * **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión.
 
@@ -161,9 +203,48 @@ Analiza la evolución temporal del rendimiento de las campañas publicitarias en
 
   * **Gráfico Evolución de clicks por campaña a lo largo del tiempo**
 
+    Objetivo → Visualizar la evolución del volumen de clics a lo largo del tiempo por campaña, para identificar tendencias estacionales y campañas con mayor interacción en distintos periodos.
+
+    - Eje X:
+      Año
+      Formato dato → Número entero.
+      Mes
+      Formato dato → texto.
+
+    - Eje Y:
+      Total clicks
+      Formato dato → Número entero porque es un conteo.
+
+    - Leyenda:
+      Nombre de campaña
+      Formato dato → texto.
+
   * **Gráfico Evolución mensual de gasto y conversiones**
 
+    Objetivo → Comparar el gasto publicitario y las conversiones obtenidas a lo largo de los meses para identificar patrones de rendimiento.
+
+    - Eje X:
+      Mes
+      Formato dato → texto.
+
+    - Eje Y barras apiladas:
+      Gasto total
+      Formato → Moneda (porque es un coste)
+      Total Conversiones
+      Formato dato → Número entero porque es un conteo.
+
+
   * **Gráfico Evolución mensual del CTR**
+
+    Objetivo → Analizar la evolución mensual del CTR para evaluar la eficacia de los anuncios en generar clicks a lo largo del tiempo.
+
+    - Eje X:
+      Mes
+      Formato dato → texto.
+
+    - Eje Y:
+      CTR
+      Formato dato →  Porcentaje porque es una tasa.
 
 * **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión.
 
@@ -197,9 +278,44 @@ Analiza cómo se comporta la audiencia segmentada por edad, género, país y tip
 
   * **Gráfico Gasto publicitario por país con desglose por dispositivo**
 
+    Objetivo → Visualizar el gasto publicitario por país, identificando en qué ubicaciones se está invirtiendo más, y analizar en cada una cómo se distribuye ese gasto según el tipo de dispositivo utilizado.
+
+    - Ubicación:
+      Audiencia: país (España, México, Argentina y Colombia).
+
+    - Tamaño de la burbuja y color: (verde, amarillo, rojo) va en función del total de gastos que tiene.
+      Verde → Gasto por debajo de  $ 249.000
+      Amarillo → Gasto  entre $ 250.000 y  $ 270.000
+      Rojo → Gasto por encima de $ 271.000
+
+    - Tooltip Gráfico de anillos:
+      Leyenda → Audiencia: tipos de dispositivo (tablet, móvil, ordenador).
+      Valores →, Gasto total.
+
   * **Gráfico Tasa de conversión por tipo de dispositivo**
 
+    Objetivo → Analizar la eficiencia de conversión por tipo de dispositivo, identificando en cuál se logra una mayor tasa de conversión.
+
+    - Eje X:
+      Tipo de dispositivo (Tablet, Móvil, Ordenador).
+      Formato dato → texto.
+
+    - Eje Y:
+      CR
+      Formato dato → Porcentaje (%) porque es una proporción.
+
   * **Gráfico Clicks por segmento demográfico: edad y género**
+
+    Objetivo → Visualizar la distribución del total de clics según los distintos grupos de edad y género, para identificar los segmentos demográficos con mayor interacción publicitaria.
+
+    - Filas: 
+      Audiencia: rango de edad 
+
+    - Columnas: 
+      Audiencia: género 
+
+    - Valores: 
+      Total de clicks
 
 * **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión, edad por rango y género.
 
@@ -232,10 +348,56 @@ Evalúa el rendimiento de cada canal publicitario (Google, Facebook, Instagram, 
       Formato → Moneda porque es un coste unitario.
 
   * **Gráfico Rendimiento de campañas por canal publicitario**
+    
+    Objetivo → Comparar el rendimiento y la eficiencia de cada canal publicitario en términos de inversión, volumen de interacción y tasa de conversión.
+
+    - Eje X:
+      Fuente (Google, Instagram, Facebook, YouTube). 
+      Formato dato → texto.
+
+    - Eje Y barras apiladas:
+      Total clicks
+      Formato dato → Número entero porque es un conteo.
+      Total conversiones
+      Formato dato → Número entero porque es un conteo.
+      Gasto total
+      Formato dato → Moneda porque es un gasto.
+
+    -  Eje Y línea:
+       CTR (Click Through Rate).
+       Formato dato → Porcentaje porque es una tasa.
 
   * **Gráfico Conversión total por canal publicitario**
 
+    Objetivo → Mostrar qué canal publicitario está generando más conversiones para evaluar su efectividad individual.
+
+    - Eje X:
+      Fuente (Google, Instagram, Facebook, YouTube). 
+      Formato dato → texto.
+
+    - Eje Y:
+      Total conversiones
+      Formato dato → Número entero porque es un conteo.
+
   * **Gráfico Comparativa de rendimiento por canal publicitario**
+
+    Objetivo → Tener una visión comparativa y detallada del rendimiento por fuente, con métricas clave de eficiencia y coste.
+
+    Columnas:
+    - Fuente (Google, Instagram, Facebook, YouTube). 
+    Formato dato → texto.
+    - Total conversiones
+    Formato dato → Número entero porque es un conteo.
+    - Total clicks
+    Formato dato → Número entero porque es un conteo.
+    - Gasto total
+    Formato dato → Moneda porque es un gasto.
+    - CPC
+    Formato dato → Moneda porque es un coste unitario.
+    - CPA
+    Formato dato → Moneda porque es un coste.
+    - CR
+    Formato dato → Porcentaje (%) porque es una proporción.
 
 * **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión.
 
