@@ -405,7 +405,7 @@ Evalúa el rendimiento de cada canal publicitario (Google, Facebook, Instagram, 
 
 ---
 
-## **📈 Conclusión del proyecto**
+## **✅ Conclusión del proyecto**
 
 Este proyecto proporciona un marco sólido para entender y optimizar las operaciones de **DH Marketing** a través del análisis de datos. La implementación de visualizaciones efectivas en Power BI permite una mejor toma de decisiones estratégicas y operativas.
 
