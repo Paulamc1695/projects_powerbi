@@ -37,8 +37,6 @@ Este documento detalla las fases del proyecto y sus resultados.
 
 ## **🗂️ Fases del Proyecto**
 
-## **🗂️ Fases del Proyecto**
-
 ### **Fase 1. Análisis exploratorio de datos (EDA)**
 
 * Exploración inicial de los datos para identificar patrones, tendencias y anomalías.
