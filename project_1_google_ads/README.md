@@ -61,21 +61,27 @@ Este documento detalla las fases del proyecto y sus resultados.
 
 #### **Rendimiento General**
 
-* Visualiza las **ventas**, **productos** y **clientes** organizados por años.  
-* **Filtros disponibles:** 
-  * 📅 Año y mes 
-  * 🌍 País
-  * Canal Publicitario
-  * Campaña
-  * Edad por rango
+* ...
 
+* **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión.
 
+  #### **Análisis Temporal**
 
+  * ...
 
+* **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión.
 
+   #### **Perfil de Audiencia**
 
+   * ...
 
+* **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión, edad por rango y género.
 
+    #### **Análisis por Canal publicitario**
+
+    * ...
+
+* **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión.
 
 
 ## **📈 Conclusión del proyecto**
