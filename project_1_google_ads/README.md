@@ -13,9 +13,9 @@ Este documento detalla las fases del proyecto y sus resultados.
 
 • **Fases del proyecto**  
    * Fase 1. Análisis exploratorio de datos (EDA)  
-   * Fase 2. Limpieza y Transformación de datos  
-   * Fase 3.  
-   * Fase 4. Análisis y visualización en Dashboard en Power BI  
+   * Fase 2. Procesos ETL (Extract, Transform, Load)  
+   * Fase 3. Modelado de datos y construcción de relaciones 
+   * Fase 4. Análisis y visualización en dashboard  
      * Rendimiento General 
      * Análisis Temporal
      * Perfil de Audiencia
@@ -51,7 +51,7 @@ Este documento detalla las fases del proyecto y sus resultados.
 
 ![BBDD relación tablas](https://github.com/Paulamc1695/powerbi_projects/blob/main/project_1_google_ads/google_ads_relaciones.png)
 
-### **Fase 4. Análisis y visualización en Dashboard en Power BI**
+### **Fase 4. Análisis y visualización en dashboard**
 
 
 * Visualización de los resultados a través de un dashboard interactivo que permite un fácil acceso y análisis de la información.
