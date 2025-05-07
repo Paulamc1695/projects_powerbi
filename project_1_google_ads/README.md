@@ -20,10 +20,10 @@ Este documento detalla las fases del proyecto y sus resultados.
    * Fase 2. Procesos ETL (Extract, Transform, Load)  
    * Fase 3. Modelado de datos y construcción de relaciones 
    * Fase 4. Análisis y visualización en dashboard  
-     * 1. Rendimiento General 
-     * 2. Análisis Temporal
-     * 3. Perfil de Audiencia
-     * 4. Análisis por Canal publicitario 
+     * 4.1. Rendimiento General 
+     * 4.2. Análisis Temporal
+     * 4.3. Perfil de Audiencia
+     * 4.4. Análisis por Canal publicitario 
 
 • **Conclusión del proyecto**  
 
@@ -59,7 +59,7 @@ Diseñar un dashboard en Power BI que permita visualizar de forma clara y dinám
 
 * Visualización de los resultados a través de un dashboard interactivo que permite un fácil acceso y análisis de la información.
 
-#### **1. Rendimiento General**
+#### **4.1. Rendimiento General**
 
 Analiza el rendimiento global de las campañas publicitarias en términos de interacción (clics e impresiones), resultados obtenidos (conversiones) y costes asociados (gasto total, CPC, CPM y CPV); para comparar la eficacia de cada campaña para identificar las más rentables y optimizar futuras inversiones.
 
@@ -165,7 +165,7 @@ Analiza el rendimiento global de las campañas publicitarias en términos de int
 
 * **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión.
 
-#### **2. Análisis Temporal**
+#### **4.2. Análisis Temporal**
 
 Analiza la evolución temporal del rendimiento de las campañas publicitarias en términos de clics, gasto, conversiones y eficiencia (CPC y CTR). A través de los distintos gráficos, se identifican patrones estacionales y momentos de mayor o menor efectividad para optimizar la planificación de futuras acciones.
 
@@ -250,7 +250,7 @@ Analiza la evolución temporal del rendimiento de las campañas publicitarias en
 
 * **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión.
 
-#### **3. Perfil de Audiencia**
+#### **4.3. Perfil de Audiencia**
 
 Analiza cómo se comporta la audiencia segmentada por edad, género, país y tipo de dispositivo, identificando los perfiles que generan mayor interacción y conversión. A través de este análisis se optimizan las decisiones estratégicas de segmentación y asignación de presupuesto publicitario en Google Ads.
 
@@ -321,7 +321,7 @@ Analiza cómo se comporta la audiencia segmentada por edad, género, país y tip
 
 * **Filtros disponibles:** año y mes, país, canal publicitario, campaña, canal convsersión, edad por rango y género.
 
-#### **4. Análisis por Canal publicitario**
+#### **4.4. Análisis por Canal publicitario**
 
 Evalúa el rendimiento de cada canal publicitario (Google, Facebook, Instagram, YouTube) en términos de inversión, clics y conversiones; para  identificar qué fuentes generan un mejor retorno, optimizar la asignación de presupuesto y entender la eficiencia de cada canal en la estrategia de Google Ads.
 
