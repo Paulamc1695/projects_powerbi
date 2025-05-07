@@ -8,7 +8,7 @@ Aquí encontrarás un conjunto de proyectos centrados en el análisis de datos d
 
 ## 🗂️ Repositorio de proyectos
 
-- **Proyecto...**
+- **Proyecto 1.** Análisis de datos de Google Ads
 
 ---
 
