@@ -30,4 +30,4 @@ Si deseas conectar o aprender más sobre alguno de los proyectos, no dudes en vi
 
 
 **¡Gracias por explorar este repositorio!**  
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme. 🤝
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
