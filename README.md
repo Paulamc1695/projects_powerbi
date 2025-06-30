@@ -4,6 +4,10 @@
 
 Aquí encontrarás un conjunto de proyectos centrados en el análisis de datos desarrollados con Power BI, enfocados en la transformación, visualización e interpretación de datos para la toma de decisiones clara y efectiva.
 
+<p align="center">
+  <img src="https://github.com/Paulamc1695/projects_powerbi/blob/main/logo-BI.png" width="120"/>
+</p>
+
 ---
 
 ## 🗂️ Repositorio de proyectos
